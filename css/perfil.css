@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .img-logo {
+  position: absolute;
+  width: 60px;
+  top: 15px;
+  left: 60px;
+}
+
+.nav-item {
+  margin: 20px;
+
+}
+
+.nav-item:hover {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.card{
+  background-color: #3d1c97;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+  height: 800px;
+  margin: auto;
+  bottom: 700px;
+}
+
+.titulos {
+  color: white;
+}
+
+.titulo-foto {
+  position: absolute;
+  left: 90px;
+  top: 45px;
+}
+
+.titulo-perfil {
+  position: absolute;
+  top: 60px;
+}
+
+.foto{
+  position: absolute;
+  left: 50px;
+  top:95px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(7, 4, 4);
+}
+
+.input-foto input{
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+
+.botones a{
+  position: relative;
+  margin: 40px;
+  left: 180px;
+  bottom: 160px;
+  padding: 10px 50px;
+}
+
+.botones a:hover{
+background-color: chocolate;
+}
+
+.content-reglamento{
+position:absolute;
+color: white;
+align-items:flex-start;
+background-color: aqua;
+padding: 50px;
+margin: 70px;
+top: 550px;
+right: 10px;
+
+}
+
+.content-pago{
+  position:absolute;
+  color: white;
+  /* background-color: rgb(201, 133, 32); */
+  align-items:flex-start;
+  padding: 50px;
+  margin: 70px;
+  top: 1200px;
+  left: 360px;
+}
+
+.card-pago{
+  /* background-color: blue; */
+  padding: 20px;
+  color: rgb(0, 0, 0);
+
+}
+
+.card-pago .cards1 img{
+  position: relative;
+  left: 50px;
+}
+
+.card-pago .cards2 img{
+  position: relative;
+  left: 50px;
+}
+
+.card-pago .cards3 img{
+  position: relative;
+  left: 50px;
+}
+
+.card-pago .cards1{
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  background-color: aqua;
+  left: 480px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.card-pago .cards2{
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(96, 175, 32);
+  right: 480px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.card-pago .cards3{
+  
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 0, 242);
+  right: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+}

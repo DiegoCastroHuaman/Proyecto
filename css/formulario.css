@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+.imagenFondo {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1365px;
+  height: 625px;
+  top: auto;
+  left: auto;
+}
+
+.card {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 340px;
+  height: 513px;
+  background: #5530EB;
+  border-radius: 20px;
+  Top: 50px;
+  Left: 500px;
+}
+
+h3 {
+  position: absolute;
+  width: 223px;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #F9F6F6;
+  text-shadow: -1px -1px 1px #C82441;
+  top: 40px;
+  left: 60px;
+}
+
+.listaFormulario {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  margin: auto;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FCF9E2;
+}
+
+.labelNombre p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 13px;
+  right: 5px;
+  
+}
+
+.labelNombre input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 10px;
+  left: 45px;
+
+}
+.labelCelular p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 48px;
+  right: 5px;
+  
+}
+
+.labelCelular input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 45px;
+  left: 45px;
+
+}
+.labelCorreo p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 83px;
+  right: 5px;
+  
+}
+
+.labelCorreo input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 80px;
+  left: 45px;
+
+}
+.labelUsuario p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 118px;
+  right: 5px;
+  
+}
+
+.labelUsuario input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 115px;
+  left: 45px;
+
+}
+.labelPassword p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 153px;
+  right: 5px;
+  
+}
+
+.labelPassword input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 150px;
+  left: 45px;
+
+}
+.labelRepetir p{
+  position: absolute;
+  width: 60px;
+  font-weight: bold;
+  top: 188px;
+  right: 5px;
+  
+}
+
+.labelRepetir input{
+  position: absolute;
+  width: 180px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  top: 185px;
+  left: 45px;
+
+}
+
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 41px;
+  background: #70E35D;
+  border-radius: 10px;
+  top: 340px;
+  left: 65px;
+}
+
+button h2 {
+
+position: absolute;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+bottom: 7px;
+left: 65px;
+color: #F6F9FA;
+
+}
+
+button:hover{
+  background-color: #d68b28;
+}
+
+button:active{
+  background-color: #34df09;
+}
+
+img {
+  position: absolute;
+  width: 83px;
+  height: 97px;
+  top: 390px;
+  left: 120px;
+  ;
+
+
+}
